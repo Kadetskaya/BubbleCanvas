@@ -2,7 +2,8 @@
     "name": "balls",
     "version": "1.0.0",
     "scripts": {
-        "start": "gulp",
+        "start": "yarn run build && node server.js",
+        "dev": "gulp",
         "clean": "gulp clean",
         "build": "gulp build"
     },
